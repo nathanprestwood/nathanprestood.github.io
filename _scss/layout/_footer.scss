@@ -1,0 +1,12 @@
+/* FOOTER
+-------------------------------------------------*/
+.main-footer {
+    @extend %space;
+    padding: 0;
+    color: $white;
+    background: lighten($colorPrimary, 2%);
+    text-align: center;
+    small {
+        display: block;
+    }
+}
