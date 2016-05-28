@@ -28,14 +28,14 @@ layout: default
             <div class="col-md-6">
                 <h4>Partners</h4>
                 <div class="row">
-                    <div class="col-md-4"> <img src="img/about/ufpe.png" alt="..."></div>
-                    <div class="col-md-4"><img src="img/about/ufrpe.png" alt="..."></div>
-                    <div class="col-md-4"><img src="img/about/cesar.png" alt="..."></div>
+                    <div class="col-md-4" style="display: inline-block;"><img src="img/about/ufpe.png" alt="..."></div>
+                    <div class="col-md-4" style="display: inline-block;"><img src="img/about/ufrpe.png" alt="..."></div>
+                    <div class="col-md-4" style="display: inline-block;"><img src="img/about/cesar.png" alt="..."></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3"><img src="img/about/facape.png" alt="..."></div>
-                    <div class="col-md-5"><img src="img/about/senai.png" alt="..."></div>
-                    <div class="col-md-4"><img src="img/about/ikewai.png" alt="..."></div>
+                    <div class="col-md-3" style="display: inline-block;"><img src="img/about/facape.png" alt="..."></div>
+                    <div class="col-md-5" style="display: inline-block;"><img src="img/about/senai.png" alt="..."></div>
+                    <div class="col-md-4" style="display: inline-block;"><img src="img/about/ikewai.png" alt="..."></div>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@ layout: default
         <div class="row">
             {% for treatment in site.data.treatments %}
                 <div class="col-md-6">
-                    <div class="icon-box">
+                    <div class="icon-box" style="border-radius: 2%;">
                         <img class="icon" src="/svg/{{ treatment.icon }}"></img>
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
@@ -67,7 +67,7 @@ layout: default
 <!-- Start Our team -->
 <div id="team" class="team">
     <h2 class="section-title">Our Team</h2>
-    <div class="container" style="margin-bottom: 45px; margin-top: -15px;">
+    <div class="container-fluid" style="margin-bottom: 45px; margin-top: -15px;">
         <h4 class="team-type">Faculty members</h4>
         {% for member in site.data.faculty_members %}
         <div class="col-md-3 expandable-box">
@@ -80,7 +80,7 @@ layout: default
         </div>
         {% endfor %}
     </div>
-    <div class="container" style="margin-bottom: 45px">
+    <div class="container-fluid" style="margin-bottom: 45px">
         <h4 class="team-type">PhD Students</h4>
         {% for member in site.data.phd_students_members %}
         <div class="col-md-3 expandable-box">
@@ -93,7 +93,7 @@ layout: default
         </div>
         {% endfor %}
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <h4 class="team-type">Undergraduate</h4>
         {% for member in site.data.undergraduate_students_members %}
         <div class="col-md-3 expandable-box">

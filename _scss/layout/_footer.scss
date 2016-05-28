@@ -4,7 +4,7 @@
     @extend %space;
     padding: 0;
     color: $white;
-    background: lighten($colorPrimary, 2%);
+    background: $colorPrimary;
     text-align: center;
     small {
         display: block;

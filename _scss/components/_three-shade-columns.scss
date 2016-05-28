@@ -15,10 +15,10 @@
            padding-right: $space*2;
         }
         &:nth-child(1) {
-            background: $colorPrimary;
+            background: darken($colorPrimary, 2%);
         }
         &:nth-child(2) {
-            background: lighten($colorPrimary, 1%);
+            background: lighten($colorPrimary, 2%);
         }
     }
     .icon {
