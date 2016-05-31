@@ -16,9 +16,9 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: (81) xxxx-xxxx
+    phone: +55 81 2126.8430 <br>Ramal 4473
     #emergency:
-    email: contact@yoursite.com
+    email:
     address: Av. Jorn. Aníbal Fernandes, s/n - Cidade Universitária <br> Recife-PE - Brazil
 
 # Opening hours
