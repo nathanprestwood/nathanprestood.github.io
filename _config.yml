@@ -1,6 +1,6 @@
 # Site settings
-title: ES-CIn -- Research Group
-description: "ES-CIn -- Research Group"
+title: ES-CIn – Research Group
+description: "ES-CIn – Research Group"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: /img/biglogo.gif
@@ -16,15 +16,15 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency:
+    phone: (81) xxxx-xxxx
+    #emergency:
     email: contact@yoursite.com
     address: Av. Jorn. Aníbal Fernandes, s/n - Cidade Universitária <br> Recife-PE - Brazil
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
+#monday_friday: 9:00 – 18:00
+#saturday: 10:00 – 17:00
+#sunday: 10:00 – 15:00
 
 # Testimonials
 #testimonials:
@@ -34,18 +34,18 @@ sunday: 10:00 – 15:00
 map:
     zoom: 17
     address: -8.055594, -34.951010
-    address_details: 
+    address_details: /favicon.png
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
-feed: yes
+#facebook: http://facebook.com
+#twitter: http://twitter.com
+#instagram: http://instagram.com
+#youtube: http://youtube.com
+#skype: skype:obaez_design?userinfo
+#feed: yes
 
 # Footer
-copyright: © 2016  - INES - All rights reserved
+copyright: © 2016 - INES - All rights reserved
 
 # Build settings
 markdown: kramdown

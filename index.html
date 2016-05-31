@@ -23,7 +23,9 @@ layout: default
                 <h3>Welcome to INES</h3>
                 <p>Site do projeto Engenharia de Software para Cidades Inteligentes (ESCIn), PRONEX-FACEPE-APQ 0388-1.03/14, do Instituto Nacional de Ciência e Tecnologia para Engenharia de Software (<a href="http://www.ines.org.br/">INES</a>).</p>
                 <h4>Repository</h4>
-                <div class="col-md-2 col-sm-offset-1"><a href="https://github.com/ines-escin/"><img src="img/about/repo.svg" style="width: 40px; height: 40px"></a></div>
+                <div class="col-md-2 col-sm-offset-1" style="padding-bottom: 20px;">
+                    <a href="https://github.com/ines-escin/"><img src="img/about/repo.svg" style="width: 40px; height: 40px"></a>
+                </div>
             </div>
             <div class="col-md-6">
                 <h4>Partners</h4>
@@ -51,9 +53,11 @@ layout: default
         <div class="row">
             {% for treatment in site.data.treatments %}
                 <div class="col-md-6">
+                <a href="{{ site.baseurl }}/apps/{{ treatment.link }}">
                     <div class="icon-box" style="border-radius: 2%;">
                         <img class="icon" src="/svg/{{ treatment.icon }}"></img>
                         <h4>{{ treatment.title }}</h4>
+                </a>
                         <p>{{ treatment.description }}</p>
                     </div>
                 </div>
